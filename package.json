@@ -16,5 +16,8 @@
     "uuid": "^11.1.0",
     "weaviate-client": "^3.6.2",
     "weaviate-ts-client": "^2.2.0"
-  }
+  },
+  "scripts": {
+  "start": "ts-node src/index.ts"
+}
 }
