@@ -3,7 +3,7 @@ import Message from '../models/Message';
 import OpenAI from 'openai';
 import { ChatCompletionMessageParam } from 'openai/resources/chat/completions';
 import { config } from '../config';
-import memory from '../services/mem0Client'; // Adjust this import path as needed
+import memory from '../util/mem0Client'; // Adjust this import path as needed
 
 const router = express.Router();
 

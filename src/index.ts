@@ -1,6 +1,5 @@
 import express from 'express';
-import { connectDB } from './services/mongodbClient';
-import memory from './services/mem0Client';
+import { connectDB } from './util/mongodbClient';
 import chatRouter from './api/chat';
 
 const app = express();
