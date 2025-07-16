@@ -1,11 +1,14 @@
 import Memory from './Memory';
 export default class MemoryController {
+
+    memories : Memory[] = [];
+
     constructor() {
 
     }
 
     createMemory(memory: Memory) {
-
+        this.memories.push(memory);
     }
 
     readMemory(memoryId: string): Memory {

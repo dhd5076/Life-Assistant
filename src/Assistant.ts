@@ -11,6 +11,10 @@ export default class Assistant {
 
     }
 
+    addCore(core: Core) {
+        
+    }
+
     addMessageToQueue(message: Message): Promise<void> {
         return new Promise((resolve) => {
 
